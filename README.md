@@ -1,3 +1,55 @@
+# 🌊 Underwater AI
+
+Dive into the depths of the ocean — without getting wet! 🐠  
+
+**Underwater AI** is an intelligent system that uses **computer vision and machine learning** to detect, classify, and track objects in underwater environments. From marine life to submerged structures, this project brings clarity to murky waters and helps researchers, conservationists, and developers visualize what lies beneath.
+
+---
+
+## 🔍 Project Highlights
+
+- **AI-Powered Detection** – Identify marine species, debris, and underwater structures.  
+- **Real-Time Analysis** – Process video streams or image batches efficiently.  
+- **Insightful Visualization** – Annotated outputs with detection results and confidence scores.  
+- **Modular & Extensible** – Easily add new models, datasets, or pipelines.
+
+---
+
+## 🧰 Technologies & Tools
+
+- **Python** – Core programming and ML integration  
+- **OpenCV / MediaPipe / TensorFlow** – Computer vision & AI models  
+- **FastAPI** – Optional API for deployment and integration  
+- **Frontend (Optional)** – Next.js or React for visualization  
+- **Docker (Optional)** – Easy environment setup and deployment
+
+---
+
+## 🏗 Project Structure
+Underwater-AI/
+├── main.py # Entry point
+├── detect_router.py # Detection endpoints
+├── stream_router.py # Streaming support
+├── enhance_router.py # Enhancement endpoints
+├── upload_router.py # File upload API
+├── user_model.py # User/auth models
+├── result_model.py # Output schemas
+├── connection.py # Database/API connections
+├── output1.jpeg # Sample detection outputs
+├── output2.jpeg
+├── requirements.txt # Python dependencies
+├── package.json # Frontend/Node config (if any)
+└── README.md
+
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Pradha-glitch/Underwater-AI.git
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
